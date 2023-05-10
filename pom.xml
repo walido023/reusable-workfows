@@ -1074,7 +1074,7 @@
                                 <changeLogFile>${project.basedir}/src/main/resources/config/liquibase/master.xml</changeLogFile>
                                 <diffChangeLogFile>${project.basedir}/src/main/resources/config/liquibase/changelog/${maven.build.timestamp}_changelog.xml</diffChangeLogFile>
                                 <driver>com.mysql.cj.jdbc.Driver</driver>
-                                <url>jdbc:mysql://34.163.67.223:3306/mySephoraCicdDemo</url>
+                                <url>jdbc:mysql:///mySephoraCicdDemo?cloudSqlInstance=ambient-net-377313:europe-west9:demo-cicd-instance</url>
                                 <defaultSchemaName>mySephoraCicdDemo</defaultSchemaName>
                                 <username>root</username>
                                 <password></password>
